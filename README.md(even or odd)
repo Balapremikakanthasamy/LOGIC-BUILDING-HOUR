@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<string.h>
+int countEvensOdds(int input1,int input2,int input3,int input4,int input5,char*){
+  int x;
+  x=strlen(input6);
+  int ev_count=0;
+  int odd_count=0;
+  if(input1%2==0)
+    ev_count++;
+else
+  odd_count++;
+if(input2%2==0)
+  ev_count++;
+else
+  odd_count++;
+if(input3%2==0)
+  ev_count++;
+else
+  odd_count++;
+if(input4%2==0)
+  ev_count++;
+else
+  odd_count++;
+if(input5%2==0)
+  ev_count++;
+else
+  odd_count++;
+if(x==3)
+  return odd_count;
+else
+  return ev_count;
+}
