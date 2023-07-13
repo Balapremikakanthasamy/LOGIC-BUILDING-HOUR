@@ -1,5 +1,9 @@
 #import java.io.*;
 #import java.util.*;
+class UserMainCode
+{
+public int nonRepeatedDigitsCount(int input1){
+
 String str = Integer.toString(input1);
 int len=str.length();
 int count=0,pcount=0;
